@@ -8,6 +8,10 @@ module.exports = {
       url: process.env.TESTNET_RPC,
       accounts: [process.env.PRIVATE_KEY]
     },
+    evmos: {
+      url: process.env.TESTNET_EVM_RPC,
+      accounts: [process.env.PRIVATE_KEY]
+    },
   },
   etherscan: {
     apiKey: process.env.POLYGONSCAN_API_KEY
